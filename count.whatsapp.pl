@@ -2,6 +2,11 @@
 use warnings;
 use strict;
 
+
+#quick script to take whatsapp group chat export and find top posters by posting count and word count. These lists are stored in two output files
+
+#May 11,2020
+
 open(IN,$ARGV[0]);
 
 my %post;
